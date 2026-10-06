@@ -173,7 +173,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .badge{display:inline-flex;align-items:center;gap:8px;background:#ecfdf3;color:#166534;border:1px solid #bbf7d0;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;margin-top:18px}
 .about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
 .idcard{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:28px;display:grid;gap:18px}
-.idcard .mono{width:64px;height:64px;border-radius:16px;background:var(--ink);color:#fff;display:grid;place-items:center;font-weight:800;font-size:24px;letter-spacing:-.02em}
+.idcard .photo-me{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center 22%;border-radius:14px;background:var(--soft)}
 .idcard h3{font-size:24px}
 .idcard dl{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;margin:0;font-size:14px}
 .idcard dt{color:var(--muted);font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding-top:2px}
@@ -239,7 +239,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 <section class="about" id="quien-soy">
   <div class="wrap">
     <div class="idcard">
-      <div class="mono">JG</div>
+      <img class="photo-me" src="juan.jpg" alt="Juan Giglio, cadista dental" width="800" height="960" loading="lazy">
       <div><h3>Juan Giglio</h3><p style="color:var(--muted)">Cadista dental · Montevideo</p></div>
       <dl>
         <dt>Formación</dt><dd>5.º año de Doctor en Odontología, UdelaR</dd>
